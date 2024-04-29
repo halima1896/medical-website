@@ -1,0 +1,142 @@
+/* common css code  */
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.hr-style{
+
+    border:2px solid black ;
+    opacity: 1;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.hr-style1{
+
+    border:2px solid black ;
+    opacity: 1;
+    width: 100px;
+
+}
+
+#hero-section{
+    background-image:url(element\ \(2\).png) ;
+    background-repeat: no-repeat;
+}
+
+
+
+.service-img{
+    width: 100px;
+    object-fit: contain;
+    height:30% ;
+    
+}
+
+.card{
+    border: none;
+}
+
+.service-card{
+    box-shadow: 5px 5px 10px  rgba(128, 128, 128, 0.00),  -5px 5px 10px rgba(128, 128, 128, 0.072);
+}
+#service-section{
+
+    background-image: url(Vector.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+#blog .container{
+    background-image: url('element\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    top: auto; 
+    bottom: -20px;
+}
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+.card-footer{
+    border: none;
+    background-color: transparent ;
+}
+
+.carousel-indicators{
+    bottom: -35px;
+}
+
+.footer{ 
+    background-image: linear-gradient(#65BCF3, #65BCF3);
+} 
+footer ul{
+    padding: 0;
+}
+
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+
+ footer ul li a {
+    text-decoration: none;
+    color:white;
+}
+footer h4{
+    font-weight: bold;
+}
+#carousel{
+    background-color: blue;
+}
+.hr{
+
+    border:2px solid white;
+    opacity: 1;
+    width: 100px;
+    margin: 0 auto; 
+
+   
+}
+/* 
+.carousel-h3{
+
+    text-align: center;
+    font-style: italic;
+    cursor: pointer;
+} */
+
+    
+
+#my-testimonial{
+    background-color: blue;
+}
+.img-element{
+    position: absolute;
+  right: 0;
+ 
+    
+   
+}
+/* ami */
+
+
+.Scroll{
+    text-decoration: none;
+    color: black;
+    margin-left: 20%;
+
+  
+
+} 
